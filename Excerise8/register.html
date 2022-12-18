@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <script src="jsfile.js"></script>
+    <Title>Register</Title>
+</head>
+
+<body>
+
+
+
+    <div class="register">
+        <h1><a href="register.html">Register</a></h1>
+    </div>
+
+
+    <div class="item2">
+        <nav>
+            <p><a href="index.html">Home</a></p>
+            <p><a href="Characters.html">Characters</a></p>
+            <p><a href="Places.html">Places</a></p>
+        </nav>
+
+    </div>
+
+
+
+    <div class=" center">
+        <form autocomplete="off" action="/action_page.php">
+            <div style="width:300px;">
+                <input type="text" name="myMail" placeholder="Mail" required>
+            </div>
+
+
+            <br>
+
+            <div style="width:300px;">
+                <input type="text" name="myPass" placeholder="Password" required>
+            </div>
+
+            <br>
+
+            <div style="width:300px;">
+                <input type="text" name="myPass" placeholder="Password" required>
+            </div>
+
+            <br>
+
+            <div class="autocomplete" style="width:300px;">
+                <input id="myInput1" type="text" name="myName" placeholder="Name" required>
+            </div>
+
+            <br>
+            <br>
+
+            <div class="autocomplete" style="width:300px;">
+                <input id="myInput2" type="text" name="myCountry" placeholder="Country" required>
+            </div>
+
+            <br>
+            <br>
+
+            <div class="custom-select" style="width:600px;">
+                <select>
+                    <option value="0">Year of birth</option>
+                    <option value="1">1990</option>
+                    <option value="2">1991</option>
+                    <option value="3">1992</option>
+                    <option value="4">1993</option>
+                    <option value="5">1994</option>
+                    <option value="6">1995</option>
+                    <option value="7">1996</option>
+                    <option value="8">1997</option>
+                    <option value="9">1998</option>
+                    <option value="10">1999</option>
+                    <option value="11">2000</option>
+                    <option value="12">2001</option>
+                </select>
+            </div>
+
+            <p id="survey">Please answer this brief survey
+            </p>
+
+            <p>Please select your gender:</p>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br>
+            <input type="radio" id="other" name="gender" value="other">
+            <label for="other">Other</label>
+
+            <br>
+
+            <p>Please select your age:</p>
+            <input type="radio" id="age1" name="age" value="30">
+            <label for="age1">0 - 30</label><br>
+            <input type="radio" id="age2" name="age" value="60">
+            <label for="age2">31 - 60</label><br>
+            <input type="radio" id="age3" name="age" value="100">
+            <label for="age3">61 - 100</label>
+
+            <br>
+
+            <p>Please select your weight:</p>
+            <input type="radio" id="weight1" name="weight" value="60">
+            <label for="age1">30 - 60</label><br>
+            <input type="radio" id="weight2" name="weight" value="80">
+            <label for="age2">61 - 80</label><br>
+            <input type="radio" id="weight3" name="weight" value="100">
+            <label for="age3">81 - 100</label>
+
+            <br>
+
+
+            <p>Please select your height:</p>
+            <input type="radio" id="height1" name="height" value="1,60">
+            <label for="short">>1,60</label><br>
+            <input type="radio" id="height2" name="height" value="1,61-1,80">
+            <label for="medium">1,61-1,80</label><br>
+            <input type="radio" id="height3" name="height" value="18,1">
+            <label for="high">1,81< </label>
+
+                    <br>
+
+
+            <p>Are you a fan of lotr:</p>
+            <input type="radio" id="yes" name="ans" value="yes">
+            <label for="yes">yes</label><br>
+            <input type="radio" id="no" name="ans" value="no">
+            <label for="no">no</label>
+
+
+            <br>
+
+            <p>Which hobbit you thing did the most work:</p>
+            <input type="radio" id="hobbit1" name="ans1" value="frodo">
+            <label for="Frodo">Frodo</label><br>
+            <input type="radio" id="hobbit2" name="ans1" value="Sam">
+            <label for="Sam">Sam</label>
+
+            <br>
+
+
+            <p>Best fighter:</p>
+            <input type="radio" id="fighter" name="ans2" value="Aragorn">
+            <label for="Aragorn">Aragorn</label><br>
+            <input type="radio" id="fighter2" name="ans2" value="Legolas">
+            <label for="Legolas">Legolas</label><br>
+            <input type="radio" id="fighter3" name="ans2" value="Gimli">
+            <label for="Gimli">Gimli</label>
+
+            <br>
+
+            <p>Best Place:</p>
+            <input type="radio" id="Place" name="asn4" value="Shire">
+            <label for="age1">Shire</label><br>
+            <input type="radio" id="Place2" name="asn4" value="Gondor">
+            <label for="age2">Gondor</label><br>
+            <input type="radio" id="Place3" name="ans4" value="Rivendell">
+            <label for="age3">Rivendell</label>
+
+            <br>
+
+
+
+            <p>What's the name of the king in rohan:</p>
+            <input type="radio" id="name1" name="ans3" value="Theoden">
+            <label for="male">Theoden</label><br>
+            <input type="radio" id="name2" name="ans3" value="Sauron">
+            <label for="female">Sauron</label><br>
+            <input type="radio" id="name3" name="ans3" value="Saruman">
+            <label for="other">Saruman</label>
+
+            <br>
+
+
+
+            <label for="subject" class="center">Tells us more about lotr</label><br>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+
+            <br>
+            <input type="submit">
+        </form>
+    </div>
+
+    <script>
+        function autocomplete(inp, arr) {
+            var currentFocus;
+            inp.addEventListener("input", function(e) {
+                var a, b, i, val = this.value;
+                closeAllLists();
+                if (!val) {
+                    return false;
+                }
+                currentFocus = -1;
+                a = document.createElement("DIV");
+                a.setAttribute("id", this.id + "autocomplete-list");
+                a.setAttribute("class", "autocomplete-items");
+                this.parentNode.appendChild(a);
+                for (i = 0; i < arr.length; i++) {
+
+                    if (arr[i].substr(0, val.length).toUpperCase() == val.toUpperCase()) {
+                        b = document.createElement("DIV");
+                        b.innerHTML = "<strong>" + arr[i].substr(0, val.length) + "</strong>";
+                        b.innerHTML += arr[i].substr(val.length);
+                        b.innerHTML += "<input type='hidden' value='" + arr[i] + "'>";
+                        b.addEventListener("click", function(e) {
+                            inp.value = this.getElementsByTagName("input")[0].value;
+                            closeAllLists();
+                        });
+                        a.appendChild(b);
+                    }
+                }
+            });
+
+            function closeAllLists(elmnt) {
+                var x = document.getElementsByClassName("autocomplete-items");
+                for (var i = 0; i < x.length; i++) {
+                    if (elmnt != x[i] && elmnt != inp) {
+                        x[i].parentNode.removeChild(x[i]);
+                    }
+                }
+            }
+            document.addEventListener("click", function(e) {
+                closeAllLists(e.target);
+            });
+        }
+
+        var Names = ["George", "Mrios", "Tom", "Tim", "Tina", "Markos", "Jim", "Kwn", "Panos"];
+        var countries = ["Afghanistan", "Albania", "Algeria", "Andorra", "Angola", "Anguilla", "Antigua &amp; Barbuda", "Argentina", "Armenia", "Aruba", "Australia", "Austria", "Azerbaijan", "Bahamas", "Bahrain", "Bangladesh", "Barbados", "Belarus", "Belgium", "Belize", "Benin", "Bermuda", "Bhutan", "Bolivia", "Bosnia &amp; Herzegovina", "Botswana", "Brazil", "British Virgin Islands", "Brunei", "Bulgaria", "Burkina Faso", "Burundi", "Cambodia", "Cameroon", "Canada", "Cape Verde", "Cayman Islands", "Central Arfrican Republic", "Chad", "Chile", "China", "Colombia", "Congo", "Cook Islands", "Costa Rica", "Cote D Ivoire", "Croatia", "Cuba", "Curacao", "Cyprus", "Czech Republic", "Denmark", "Djibouti", "Dominica", "Dominican Republic", "Ecuador", "Egypt", "El Salvador", "Equatorial Guinea", "Eritrea", "Estonia", "Ethiopia", "Falkland Islands", "Faroe Islands", "Fiji", "Finland", "France", "French Polynesia", "French West Indies", "Gabon", "Gambia", "Georgia", "Germany", "Ghana", "Gibraltar", "Greece", "Greenland", "Grenada", "Guam", "Guatemala", "Guernsey", "Guinea", "Guinea Bissau", "Guyana", "Haiti", "Honduras", "Hong Kong", "Hungary", "Iceland", "India", "Indonesia", "Iran", "Iraq", "Ireland", "Isle of Man", "Israel", "Italy", "Jamaica", "Japan", "Jersey", "Jordan", "Kazakhstan", "Kenya", "Kiribati", "Kosovo", "Kuwait", "Kyrgyzstan", "Laos", "Latvia", "Lebanon", "Lesotho", "Liberia", "Libya", "Liechtenstein", "Lithuania", "Luxembourg", "Macau", "Macedonia", "Madagascar", "Malawi", "Malaysia", "Maldives", "Mali", "Malta", "Marshall Islands", "Mauritania", "Mauritius", "Mexico", "Micronesia", "Moldova", "Monaco", "Mongolia", "Montenegro", "Montserrat", "Morocco", "Mozambique", "Myanmar", "Namibia", "Nauro", "Nepal", "Netherlands", "Netherlands Antilles", "New Caledonia", "New Zealand", "Nicaragua", "Niger", "Nigeria", "North Korea", "Norway", "Oman", "Pakistan", "Palau", "Palestine", "Panama", "Papua New Guinea", "Paraguay", "Peru", "Philippines", "Poland", "Portugal", "Puerto Rico", "Qatar", "Reunion", "Romania", "Russia", "Rwanda", "Saint Pierre &amp; Miquelon", "Samoa", "San Marino", "Sao Tome and Principe", "Saudi Arabia", "Senegal", "Serbia", "Seychelles", "Sierra Leone", "Singapore", "Slovakia", "Slovenia", "Solomon Islands", "Somalia", "South Africa", "South Korea", "South Sudan", "Spain", "Sri Lanka", "St Kitts &amp; Nevis", "St Lucia", "St Vincent", "Sudan", "Suriname", "Swaziland", "Sweden", "Switzerland", "Syria", "Taiwan", "Tajikistan", "Tanzania", "Thailand", "Timor L'Este", "Togo", "Tonga", "Trinidad &amp; Tobago", "Tunisia", "Turkey", "Turkmenistan", "Turks &amp; Caicos", "Tuvalu", "Uganda", "Ukraine", "United Arab Emirates", "United Kingdom", "United States of America", "Uruguay", "Uzbekistan", "Vanuatu", "Vatican City", "Venezuela", "Vietnam", "Virgin Islands (US)", "Yemen", "Zambia", "Zimbabwe"];
+        autocomplete(document.getElementById("myInput1"), Names);
+        autocomplete(document.getElementById("myInput2"), countries);
+
+    </script>
+
+
+</body>
+
+</html>

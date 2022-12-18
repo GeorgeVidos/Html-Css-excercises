@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="el">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <title>George Vidos</title>
+</head>
+
+<body>
+
+    <div class="menu">
+        <a href="index.html">Home</a>
+        <a href="About.html">About</a>
+        <a href="Contact.html">Contact</a>
+
+    </div>
+
+
+
+    <section>
+        <h1>Contact</h1>
+        <!-- φόρμα επικοινωνίας -->
+        <p>Συμπληρώστε την παρακάτω φόρμα για να επικοινωνήσετε μαζί μου μέσω email:</p>
+        <form action="contact.php" method="post">
+            <ol>
+                <li>
+                    <label>
+                        Όνομα:
+                        <input type="text" name="name">
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        Email:
+                        <input type="email" name="email">
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        Website:
+                        <input type="url" name="website">
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        Το μήνυμα σας:
+                        <textarea name="message"></textarea>
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="checkbox" name="subscribe" value="1">
+                        Θέλω να λάβω ένα αντίγραφο
+                    </label>
+                </li>
+            </ol>
+            <button type="submit">Αποστολή</button>
+        </form>
+
+
+    </section>
+
+
+    <footer>
+        <p>2020 <abbr title="Οικονομικό Πανεπιστήμιο Αθηνών">Ο.Π.Α.</abbr></p>
+    </footer>
+
+
+</body>
+
+</html>
